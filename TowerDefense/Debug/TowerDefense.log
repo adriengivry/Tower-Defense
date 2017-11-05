@@ -1,0 +1,22 @@
+﻿  Sprite.cpp
+  TowerButton.cpp
+  Tower.cpp
+  UserInterface.cpp
+  Window.cpp
+  Main.cpp
+  SDLManager.cpp
+  Game.cpp
+  GameInfo.cpp
+  EventManager.cpp
+  Event.cpp
+  Actor.cpp
+  Slot.cpp
+  ActorsManager.cpp
+  GameLoader.cpp
+  Enemy.cpp
+  Projectile.cpp
+  Field.cpp
+  AudioManager.cpp
+  Button.cpp
+  Generating Code...
+  TowerDefense.vcxproj -> C:\Users\adrie\Documents\TowerDefense\Debug\TowerDefense.exe
