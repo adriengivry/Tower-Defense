@@ -82,11 +82,11 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>D:\library\irrKlang-1.5.0\include;D:\library\SDL2_ttf\include;D:\library\SDL2_image\include;D:\library\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)dependencies\irrKlang-1.5.0\include;$(ProjectDir)dependencies\SDL2\include;$(ProjectDir)dependencies\SDL2_image\include;$(ProjectDir)dependencies\SDL2_ttf\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <AdditionalLibraryDirectories>D:\library\irrKlang-1.5.0\lib\Win32-visualStudio;D:\library\SDL2_ttf\lib\x86;D:\library\SDL2_image\lib\x86;D:\library\SDL2\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ProjectDir)dependencies\irrKlang-1.5.0\lib\Win32-visualStudio;$(ProjectDir)dependencies\SDL2\lib\x86;$(ProjectDir)dependencies\SDL2_image\lib\x86;$(ProjectDir)dependencies\SDL2_ttf\lib\x86</AdditionalLibraryDirectories>
       <AdditionalDependencies>irrKlang.lib;SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -104,12 +104,12 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>D:\library\irrKlang-1.5.0\include;D:\library\SDL2_ttf\include;D:\library\SDL2_image\include;D:\library\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)dependencies\irrKlang-1.5.0\include;$(ProjectDir)dependencies\SDL2\include;$(ProjectDir)dependencies\SDL2_image\include;$(ProjectDir)dependencies\SDL2_ttf\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>D:\library\irrKlang-1.5.0\lib\Win32-visualStudio;D:\library\SDL2_ttf\lib\x86;D:\library\SDL2_image\lib\x86;D:\library\SDL2\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ProjectDir)dependencies\irrKlang-1.5.0\lib\Win32-visualStudio;$(ProjectDir)dependencies\SDL2\lib\x86;$(ProjectDir)dependencies\SDL2_image\lib\x86;$(ProjectDir)dependencies\SDL2_ttf\lib\x86</AdditionalLibraryDirectories>
       <AdditionalDependencies>irrKlang.lib;SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SubSystem>Windows</SubSystem>
     </Link>
